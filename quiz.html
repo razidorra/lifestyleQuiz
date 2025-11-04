@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lifestyle Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Start Your Lifestyle Quiz Now!</h1>
+    </header>
+
+    <main>
+      <form id="quiz-form">
+        <div class="quiz-question card">
+          <div class="quiz-content">
+            <img src="images/heas.jpg" />
+            <div class="question-text">
+              <h3>1. What lifestyle do you prefer?</h3>
+              <label
+                ><input type="radio" name="lifestyle" value="Healthy" /> Healthy
+                Lifestyle</label
+              >
+              <label
+                ><input type="radio" name="lifestyle" value="Sedentary" />
+                Sedentary Lifestyle</label
+              >
+              <label
+                ><input type="radio" name="lifestyle" value="Active" /> Active
+                Lifestyle</label
+              >
+              <label
+                ><input type="radio" name="lifestyle" value="Minimalist" />
+                Minimalist Lifestyle</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="quiz-question card">
+          <div class="quiz-content">
+            <img src="images/exer.jpg" />
+            <div class="question-text">
+              <h3>2. How do you spend your free time?</h3>
+              <label
+                ><input type="radio" name="freeTime" value="Active" />
+                Exercising or outdoor activities</label
+              >
+              <label
+                ><input type="radio" name="freeTime" value="Sedentary" />
+                Watching TV or playing games</label
+              >
+              <label
+                ><input type="radio" name="freeTime" value="Minimalist" />
+                Socializing with friends/family</label
+              >
+              <label
+                ><input type="radio" name="freeTime" value="Healthy" /> Reading
+                or pursuing hobbies</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="quiz-question card">
+          <div class="quiz-content">
+            <img src="images/schl.jpg" />
+            <div class="question-text">
+              <h3>3. How many hours do you sleep every night?</h3>
+              <label
+                ><input type="radio" name="sleep" value="Sedentary" /> Less than
+                5 hours</label
+              >
+              <label
+                ><input type="radio" name="sleep" value="Sedentary" /> 5
+                hours</label
+              >
+              <label
+                ><input type="radio" name="sleep" value="Healthy" /> 6-8
+                hours</label
+              >
+              <label
+                ><input type="radio" name="sleep" value="Healthy" /> More than 8
+                hours</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="quiz-question card">
+          <div class="quiz-content">
+            <img src="images/freund.jpg" />
+            <div class="question-text">
+              <h3>4. How do you eat?</h3>
+              <label
+                ><input type="radio" name="eat" value="Sedentary" /> Fast
+                Food</label
+              >
+              <label
+                ><input type="radio" name="eat" value="Healthy" /> Mostly
+                healthy with sweets sometimes</label
+              >
+              <label
+                ><input type="radio" name="eat" value="Active" /> Protein-rich
+                meals</label
+              >
+              <label
+                ><input type="radio" name="eat" value="Healthy" /> Nutritious
+                food</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="quiz-question card">
+          <div class="quiz-content">
+            <img src="images/exe.jpg" />
+            <div class="question-text">
+              <h3>5. How often do you exercise?</h3>
+              <label
+                ><input type="radio" name="exercise" value="Sedentary" />
+                Never</label
+              >
+              <label
+                ><input type="radio" name="exercise" value="Sedentary" />
+                Rarely</label
+              >
+              <label
+                ><input type="radio" name="exercise" value="Active" /> 2-3 times
+                a week</label
+              >
+              <label
+                ><input type="radio" name="exercise" value="Active" />
+                Regularly</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="quiz-question card">
+          <div class="quiz-content">
+            <img src="images/schlaf.jpg" />
+            <div class="question-text">
+              <h3>6. How do you deal with stress?</h3>
+              <label
+                ><input type="radio" name="stress" value="Sedentary" /> I do
+                nothing</label
+              >
+              <label
+                ><input type="radio" name="stress" value="Healthy" /> I
+                sleep</label
+              >
+              <label
+                ><input type="radio" name="stress" value="Healthy" /> Listen to
+                music and relax</label
+              >
+              <label
+                ><input type="radio" name="stress" value="Minimalist" />
+                Meditation</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="quiz-question card">
+          <div class="quiz-content">
+            <img src="images/handy.jpg" />
+            <div class="question-text">
+              <h3>7. How many hours a day do you use your phone?</h3>
+              <label
+                ><input type="radio" name="phone" value="Sedentary" /> 6-8
+                hours</label
+              >
+              <label
+                ><input type="radio" name="phone" value="Active" /> 2-5
+                hours</label
+              >
+              <label
+                ><input type="radio" name="phone" value="Minimalist" />
+                Sometimes</label
+              >
+              <label
+                ><input type="radio" name="phone" value="Minimalist" /> Only
+                when required</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="quiz-navigation">
+          <button type="button" id="prev-btn" class="nav-btn">Previous</button>
+          <button type="button" id="next-btn" class="nav-btn">Next</button>
+          <button type="submit" id="submit-btn" class="submit-btn">
+            Submit Quiz
+          </button>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <p>© 2025 Lifestyle Quiz. All rights reserved.</p>
+      <p>Gruppen Arbeit: Atefeh, Yasaswi, Razieh, Katharina, Mahdi</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
