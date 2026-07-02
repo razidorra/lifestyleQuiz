@@ -3,25 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz Result</title>
+    <title>Your Lifestyle Quiz Result</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>Your Lifestyle Quiz Result</h1>
+    <header class="site-header">
+      <p class="header-kicker">Lifestyle Quiz</p>
+      <h1>Your Personalized Result</h1>
     </header>
+
     <main>
-      <section class="result" id="result">
-        <img id="result-image" src="images/medi.jpg" />
-        <p id="result-message"></p>
-        <button class="restart-btn" onclick="location.href='index.html'">
-          Restart Quiz
-        </button>
+      <section class="result result-panel" id="result" aria-live="polite">
+        <div class="result-media">
+          <img
+            id="result-image"
+            src="images/medi.jpg"
+            alt="Calm lifestyle scene"
+          />
+        </div>
+
+        <div class="result-content">
+          <p class="result-label">Your profile</p>
+          <h2 id="result-title">Complete the quiz to see your result</h2>
+          <p id="result-message">
+            It looks like no answer was selected yet. Return to the quiz and
+            answer the questions to receive your lifestyle profile.
+          </p>
+
+          <ul class="result-highlights" id="result-highlights">
+            <li>Answer seven quick lifestyle questions.</li>
+            <li>Get a result based on your strongest pattern.</li>
+            <li>Use the result as a starting point for healthier habits.</li>
+          </ul>
+
+          <div class="result-actions">
+            <a class="restart-btn" href="quiz.html">Retake Quiz</a>
+            <a class="secondary-btn" href="index.html">Back Home</a>
+          </div>
+        </div>
       </section>
     </main>
-    <footer>
+
+    <footer class="site-footer">
       <p>© 2025 Lifestyle Quiz. All rights reserved.</p>
-      <p>Gruppen Arbeit: Atefeh, Yasaswi, Razieh, Katharina, Mahdi</p>
+      <p>Group project by Atefeh, Yasaswi, Razieh, Katharina and Mahdi</p>
     </footer>
 
     <script src="script.js"></script>
